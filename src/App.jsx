@@ -1,10 +1,11 @@
-import React from 'react'
+import {Navbar, Welcome} from "#components"
 
 const App = () => {
   return (
-    <div>
-      <h1 className='text-3xl text-white font-bold underline'>Welcome to my portfolio</h1>
-    </div>
+    <main>
+      <Navbar/>
+      <Welcome/>
+    </main>
   )
 }
 
