@@ -7,7 +7,7 @@ body {
   width: 100dvw;
   overflow: hidden;
   height: 100dvh;
-  background-image: url("/wallpaper.jpg");
+  background-image: url("/wallpaper2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -177,23 +177,21 @@ body {
       }
 
       .content {
-        @apply py-5 my-5 border-y border-dashed space-y-1;
+        @apply py-5 my-5 border-y border-dashed space-y-3;
 
         li {
-          .check {
-            @apply text-[#00A154] w-5;
-          }
+          @apply text-sm;
+        }
 
-          h3 {
-            @apply font-semibold text-[#00A154] w-32 ms-5;
-          }
+        .check {
+          @apply text-[#00A154];
+        }
 
-          ul {
-            @apply flex items-center gap-3;
-          }
+        h3 {
+          @apply font-semibold text-[#00A154];
         }
       }
-
+      
       .footnote {
         @apply text-[#00A154] space-y-1;
 

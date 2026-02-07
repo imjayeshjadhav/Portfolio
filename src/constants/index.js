@@ -55,3 +55,26 @@ export const WINDOW_CONFIG = {
   txtfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   imgfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
 };
+
+export const techStack = [
+  {
+    category: "Programming Languages",
+    items: ["C/C++", "Java", "Python", "JavaScript"],
+  },
+  {
+    category: "Web/ Mobile Development",
+    items: ["HTML", "CSS","Tailwind CSS", "Gsap","React.js", "Next.js", "NextAuth","React Native"],
+  },
+  {
+    category: "Backend & APIs",
+    items: ["Node.js", "Express.js", "RESTful APIs", "JWT Authentication"],
+  },
+  {
+    category: "Machine Learning",
+    items: ["Scikit-learn", "TensorFlow", "PyTorch", "Pandas", "NumPy"],
+  },
+  {
+    category: "Databases, Tools & Platforms",
+    items: ["MySQL", "MongoDB","Prisma", "Git", "Postman"],
+  },
+];
