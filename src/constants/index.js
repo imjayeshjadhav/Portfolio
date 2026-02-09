@@ -78,3 +78,30 @@ export const techStack = [
     items: ["MySQL", "MongoDB","Prisma", "Git", "Postman"],
   },
 ];
+
+export const blogPosts = [
+  {
+    id: 1,
+    date: "Dec 9, 2025",
+    title:
+      "Winning Smart India Hackathon 2025: Building an AI-Powered University Timetable Scheduler",
+    image: "/images/sih.jpeg",
+    link: "https://jayeshjadhav.dev/blog/sih-2025-winning-journey",
+  },
+  {
+    id: 2,
+    date: "July 20, 2025",
+    title:
+      "Inside My Software Engineering Internship at KumarInfotech: Real-World Full Stack Experience",
+    image: "/images/internship-icon.png",
+    link: "https://jayeshjadhav.dev/blog/kumarinfotech-internship-experience",
+  },
+  {
+    id: 3,
+    date: "June 30, 2025",
+    title:
+      "Auto Recruit: How I Built an AI-Driven Recruitment Platform with Gemini AI",
+    image: "/images/robot.webp",
+    link: "https://jayeshjadhav.dev/blog/auto-recruit-ai-platform",
+  },
+];
