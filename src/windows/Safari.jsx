@@ -2,12 +2,8 @@ import { WindowControls } from '#components'
 import { blogPosts } from '#constants'
 import windowWrapper from '#hoc/windowWrapper'
 import { ChevronLeft, ChevronRight, Copy, MoveRight, PanelLeft, Plus, Search, Share, ShieldHalf } from 'lucide-react'
-import { useEffect } from 'react'
 
 const Safari = () => {
-  useEffect(() => {
-   console.log("Safari mounted")
-}, [])
 
   return <>
   <div id='window-header'>

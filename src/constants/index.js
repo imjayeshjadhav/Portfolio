@@ -1,7 +1,7 @@
 export const navLinks = [
-    { id:1, name: "Portfolio" },
-    { id:2, name: "Contacts" },
-    { id:3, name: "Projects" },
+    { id:1, name: "Portfolio", type: "portfolio" },
+    { id:2, name: "Contacts", type: "contact" },
+    { id:3, name: "Resume", type: "resume" }
 ]
 
 export const dockApps = [
