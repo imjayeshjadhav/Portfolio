@@ -2,5 +2,7 @@ import Terminal from "./Terminal";
 import Safari from "./Safari"
 import Resume from "./Resume";
 import Finder from "./finder";
+import Text from "./text"
+import Image from "./Image"
 
-export {Terminal, Safari, Resume, Finder}
+export {Terminal, Safari, Resume, Finder, Text, Image}
