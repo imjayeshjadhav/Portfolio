@@ -380,3 +380,34 @@ export const locations = {
   resume: RESUME_LOCATION,
   trash: TRASH_LOCATION,
 };
+
+export const socials = [
+  {
+    id: 1,
+    text: "GitHub",
+    icon: "/icons/github.svg",
+    bg: "#f4656b",
+    link: "https://github.com/imjayeshjadhav",
+  },
+  {
+    id: 2,
+    text: "LeetCode",
+    icon: "/icons/leetcode.svg", // you can replace with leetcode.svg if available
+    bg: "#4bcb63",
+    link: "https://leetcode.com/u/14jayeshjadhav/",
+  },
+  {
+    id: 3,
+    text: "Email",
+    icon: "/icons/email.svg", // replace with mail.svg if you have one
+    bg: "#ff866b",
+    link: "mailto:14jayeshjadhav@gmail.com",
+  },
+  {
+    id: 4,
+    text: "LinkedIn",
+    icon: "/icons/linkedin.svg",
+    bg: "#05b6f6",
+    link: "https://www.linkedin.com/in/jayesh-jadhav-813b36291/",
+  },
+];
